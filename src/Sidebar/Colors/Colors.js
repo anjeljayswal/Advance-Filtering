@@ -1,7 +1,7 @@
 function Colors() {
   return (
     <div>
-      
+      Collors
     </div>
   )
 }

@@ -2,7 +2,7 @@ import './Price.css';
 function Price() {
   return (
     <div>
-      
+      price
     </div>
   )
 }
