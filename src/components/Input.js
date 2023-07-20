@@ -1,8 +1,8 @@
-function Input() {
+function Input({handleChange,value, name,title, color}) {
   return (
     <label className="sidebar-label-container">
-        <input type="radio" name='test' />
-        <span className="checkmark"></span>All
+      <input onChange={handleChange} value={value} name={name} type="radio"/>
+      <span className="checkmark" style={{backgroundColor:color}}></span>{title}
     </label>
   )
 }
