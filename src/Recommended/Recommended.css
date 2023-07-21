@@ -1,25 +1,52 @@
 .recommended-flex {
-    display: flex;
-    margin-left: 20rem;
+  display: flex;
+  margin-left: 20rem;
+}
 
+.recommended-title {
+  margin-left: 20rem;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .recommended-flex {
+    /* flex-direction: column; */
+    align-items: center;
+    margin-left: 7.5rem;
   }
-  
+
   .recommended-title {
-    margin-left: 20rem;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    font-size: 20px;
-    font-family: sans-serif;
-
+    text-align: center;
+    margin-left: 7.5rem;
   }
+
+  /* Adjust button styles for smaller screens */
+  .recommended-flex button {
+    width: 30%;
+  }
+}
+
+
+/* Media query for smaller screens */
+@media (max-width: 425px) {
+  .recommended-flex {
+   
+    align-items: center;
+    margin-left: 5rem;
+  }
+
+  .recommended-title {
+    text-align: center;
+    margin-left: 5rem;
+  }
+  .recommended-flex button {
+    width: 17%;
+  }
+
   
-.btns{
-  padding: 10px 20px;
-  margin-right: 6px;
-  background: transparent;
-  border: none;
-  border: 0.6px solid #ccc;
-  border-radius: 5px;
-  color: #323232;
-  cursor: pointer;
+  
 }
